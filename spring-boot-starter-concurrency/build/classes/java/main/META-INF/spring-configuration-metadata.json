@@ -1,0 +1,32 @@
+{
+  "groups": [
+    {
+      "name": "concurrency",
+      "type": "com.githab.bel.spring.boot.starter.spring_boot_starter_concurrency.configuration.properties.ConcurrencyProperties",
+      "sourceType": "com.githab.bel.spring.boot.starter.spring_boot_starter_concurrency.configuration.properties.ConcurrencyProperties"
+    }
+  ],
+  "properties": [
+    {
+      "name": "concurrency.cycle-enabled",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.githab.bel.spring.boot.starter.spring_boot_starter_concurrency.configuration.properties.ConcurrencyProperties"
+    },
+    {
+      "name": "concurrency.enabled",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.githab.bel.spring.boot.starter.spring_boot_starter_concurrency.configuration.properties.ConcurrencyProperties"
+    },
+    {
+      "name": "concurrency.lock-enabled",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.githab.bel.spring.boot.starter.spring_boot_starter_concurrency.configuration.properties.ConcurrencyProperties"
+    },
+    {
+      "name": "concurrency.semaphore-enabled",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.githab.bel.spring.boot.starter.spring_boot_starter_concurrency.configuration.properties.ConcurrencyProperties"
+    }
+  ],
+  "hints": []
+}

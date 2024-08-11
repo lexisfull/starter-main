@@ -1,0 +1,76 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.github.pavelvil.spring.boot.starter",
+    "module": "spring-boot-starter-concurrency",
+    "version": "1.0.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.8"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "spring-boot-starter-concurrency-1.0.0-plain.jar",
+          "url": "spring-boot-starter-concurrency-1.0.0-plain.jar",
+          "size": 22764,
+          "sha512": "2bfd0beef43e52082afca033d1cd662b3b13a75d55d17a49e1143acc03126cf8e6f3c581fcd9f7b24237fa413fb91ca14ae337761df40d170f06d1ca78f1a15a",
+          "sha256": "c7c8d28b41814358b7da1ac5c091b1431ffe24d2b66b333af4bb5be237834913",
+          "sha1": "d2889ed5e194bef6e3bab69263c824442aa1dd2e",
+          "md5": "27db7d9214efceda90205f3e83f04b9c"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.springframework.boot",
+          "module": "spring-boot-starter",
+          "version": {
+            "requires": "3.2.2"
+          }
+        },
+        {
+          "group": "org.springframework.boot",
+          "module": "spring-boot-starter-aop",
+          "version": {
+            "requires": "3.2.2"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "spring-boot-starter-concurrency-1.0.0-plain.jar",
+          "url": "spring-boot-starter-concurrency-1.0.0-plain.jar",
+          "size": 22764,
+          "sha512": "2bfd0beef43e52082afca033d1cd662b3b13a75d55d17a49e1143acc03126cf8e6f3c581fcd9f7b24237fa413fb91ca14ae337761df40d170f06d1ca78f1a15a",
+          "sha256": "c7c8d28b41814358b7da1ac5c091b1431ffe24d2b66b333af4bb5be237834913",
+          "sha1": "d2889ed5e194bef6e3bab69263c824442aa1dd2e",
+          "md5": "27db7d9214efceda90205f3e83f04b9c"
+        }
+      ]
+    }
+  ]
+}
